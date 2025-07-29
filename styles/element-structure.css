@@ -1,0 +1,56 @@
+/*structure of img & name & status*/
+.img-name-status {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/*structure of reviews*/
+/*for all reviews*/
+.review {        
+    font-size: 20px;                             
+    margin-top: 7px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+/*cell-11 & cell-22*/
+#review-11, #review-22 {                      
+    width: 490px;
+}
+
+/*cell-12 & cell-21*/
+#review-12, #review-21 {                      
+    width: 170px;
+}
+
+/*cell13*/
+#review-13 {
+    width: 210px;
+}
+
+
+/*structure of testimonials*/ 
+/*for all testimonials*/
+.testimonial {
+    font-size: 13px;
+    margin-left: 40px;
+}     
+
+/*cell-11 & cell-22*/    
+#testimonial-11, #testimonial-22 {            
+    width: 460px;
+}
+
+/*cell-12 & cell-21*/
+#testimonial-12, #testimonial-21 {             
+    width: 190px;
+}
+
+/*cell13*/
+#testimonial-13 {
+    width: 190px;
+}

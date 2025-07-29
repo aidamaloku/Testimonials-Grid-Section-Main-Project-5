@@ -1,0 +1,106 @@
+/*cells*/
+.cell-11, .cell-22 {
+    width: 550px;
+    height: 290px;
+    border-radius: 7px;
+}
+
+.cell-11 {
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cell-22 {
+    box-shadow: 15px 20px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cell-12, .cell-21 {
+    width: 250px;
+    height: 290px;
+    background-color: aquamarine;
+    border-radius: 7px;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cell-13 {
+    width: 280px;
+    height: 608px;
+    background-color: lightgrey;
+    border-radius: 7px;
+    box-shadow: 40px 60px 40px 10px rgba(0, 0, 0, 0.15);
+}
+
+/*line-height for name-status & testimonials*/
+.name-status {
+    line-height: 0.3;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.testimonial {
+    line-height: 1.5;
+}
+
+/*img*/
+.img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+/*nem & status*/
+.status {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/*review*/
+.review {
+    font-weight: 500;
+}
+
+/*testimonial*/
+.testimonial {
+    font-weight: 400;
+}
+
+/*cell-11*/
+.cell-11 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url("/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: 10.2cm;
+    color: hsl(260, 100%, 95%);
+}
+#img-11 {
+    border: 2px solid hsl(260, 100%, 95%, 0.4);
+}
+
+/*cell-12*/
+.cell-12 {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 92%);
+}
+
+#img-12 {
+    border: 2px solid hsl(260, 100%, 95%, 0.3);
+}
+
+/*cell-13 & cell-21*/
+.cell-13, .cell-21 {
+    background-color: white;
+    color: hsl(224, 10%, 45%);
+}
+
+#testimonial-13, #testimonial-21 {
+    font-weight: 500;
+}
+
+/*cell-22*/
+.cell-22 {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 81%);
+}
+
+#img-22 {
+    border: 2.5px solid hsl(263, 55%, 52%, 0.8);
+}

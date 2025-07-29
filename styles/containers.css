@@ -1,20 +1,35 @@
+body {
+    font-family: "Barlow Semi Condensed";
+}
+
+/*container*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 
 
 
+/*grid*/
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "cell11 cell11 cell12 cell13"
+    "cell21 cell22 cell22 cell13"
+    ;
+    gap:3vh;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*assignment of grid-areas*/
+.cell-11 {grid-area: cell11;}
+.cell-12 {grid-area: cell12;}
+.cell-13 {grid-area: cell13;}
+.cell-21 {grid-area: cell21;}
+.cell-22 {grid-area: cell22;}
 
 
 /*footer*/
